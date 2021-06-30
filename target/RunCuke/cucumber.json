@@ -1,0 +1,429 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "I am on home page",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9487606300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 97,
+        "name": "Verify user should withdraw money from account successfully",
+        "description": "",
+        "id": "bank-test;verify-user-should-withdraw-money-from-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1192573800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 405664100,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I am on home page",
+            "match": {
+              "location": "AddCustomerTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221086000,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "I click on bankManager login Link",
+            "match": {
+              "location": "AddCustomerTest.iClickOnBankManagerLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371822700,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "I click on add to customer tab",
+            "match": {
+              "location": "AddCustomerTest.iClickOnAddToCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 630387200,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "I enter First Name\u003c\"Virat\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Virat",
+                  "offset": 20
+                }
+              ],
+              "location": "AddCustomerTest.iEnterFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168455100,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I enter Last Name\u003c\"Mehta\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mehta",
+                  "offset": 19
+                }
+              ],
+              "location": "AddCustomerTest.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202054300,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I enter postCode\u003c\"NW9 9HN\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NW9 9HN",
+                  "offset": 18
+                }
+              ],
+              "location": "AddCustomerTest.iEnterPostCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126863400,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I click on add customer button",
+            "match": {
+              "location": "AddCustomerTest.iClickOnAddCustomerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22887000,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "I should verify pop up message",
+            "match": {
+              "location": "AddCustomerTest.iShouldVerifyPopUpMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47404100,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "I accept pop up",
+            "match": {
+              "location": "AddCustomerTest.iAcceptPopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166414300,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "I click on open account tab",
+            "match": {
+              "location": "OpenAccTest.iClickOnOpenAccountTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765203500,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "I select name of customer from drop down\u003c\"Virat Mehta\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Virat Mehta",
+                  "offset": 42
+                }
+              ],
+              "location": "OpenAccTest.iSelectNameOfCustomerFromDropDown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244600500,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "I select currency\u003c\"Pound\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pound",
+                  "offset": 19
+                }
+              ],
+              "location": "OpenAccTest.iSelectCurrency(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138714200,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I click on process button",
+            "match": {
+              "location": "OpenAccTest.iClickOnProcessButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9536000,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I should verify the message",
+            "match": {
+              "location": "OpenAccTest.iShouldVerifyTheMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36821800,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I accept pop up",
+            "match": {
+              "location": "AddCustomerTest.iAcceptPopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149889600,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "I click on Home Button Link",
+            "match": {
+              "location": "LoginLogOutTest.iClickOnHomeButtonLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136745500,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "I click on customer Login Link",
+            "match": {
+              "location": "LoginLogOutTest.iClickOnCustomerLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 709667400,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "I select name of customer from drop down\u003c\"Virat Mehta\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Virat Mehta",
+                  "offset": 42
+                }
+              ],
+              "location": "OpenAccTest.iSelectNameOfCustomerFromDropDown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144333700,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "I click on Login Link",
+            "match": {
+              "location": "LoginLogOutTest.iClickOnLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285991000,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "I click on deposit button",
+            "match": {
+              "location": "DepositAmountTest.iClickOnDepositButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 279859300,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "I should enter amount to deposit \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 34
+                }
+              ],
+              "location": "DepositAmountTest.iShouldEnterAmountToDeposit(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132420400,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "I click on deposit tab",
+            "match": {
+              "location": "DepositAmountTest.iClickOnDepositTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79191100,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "I should verify the text message that money deposited successfully",
+            "match": {
+              "location": "DepositAmountTest.iShouldVerifyTheTextMessageThatMoneyDepositedSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 607147900,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "I click on withdral button",
+            "match": {
+              "location": "WithdralAmountTest.iClickOnWithdralButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 632045800,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "I should enter amount to withdraw \"50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 35
+                }
+              ],
+              "location": "WithdralAmountTest.iShouldEnterAmountToWithdraw(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118512000,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I click on withdral Link",
+            "match": {
+              "location": "WithdralAmountTest.iClickOnWithdralLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 575043400,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I should see the meessage that transaction is successful",
+            "match": {
+              "location": "WithdralAmountTest.iShouldSeeTheMeessageThatTransactionIsSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 95,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Test",
+    "description": "As a bank manager I want to open the account for customer, add customer and allow him to withdraw and deposit money successfully",
+    "id": "bank-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/banking.feature"
+  }
+]
